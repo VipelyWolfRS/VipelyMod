@@ -37,4 +37,8 @@ run/
 hs_err_*.log
 replay_*.log
 *.hprof
+<<<<<<< HEAD
 *.jfr
+=======
+*.jfr
+>>>>>>> f6654c29c2c2c89be24a7c9f6a74ff6638fe46b1

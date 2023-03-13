@@ -10,7 +10,11 @@
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
+<<<<<<< HEAD
     "sources": "https://github.com/FabricMC/fabric-example-mod"
+=======
+    "sources": "https://github.com/VipelyWolfRS/VipelyMod"
+>>>>>>> f6654c29c2c2c89be24a7c9f6a74ff6638fe46b1
   },
 
   "license": "MIT License",
@@ -21,7 +25,11 @@
     "main": [
       "net.vipely.vipelymod.VipelyMod"
     ],
+<<<<<<< HEAD
     "client": [
+=======
+    "Client": [
+>>>>>>> f6654c29c2c2c89be24a7c9f6a74ff6638fe46b1
 		"net.vipely.vipelymod.VipelyModClient"
 	]
   },
