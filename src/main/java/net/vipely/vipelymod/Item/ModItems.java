@@ -10,6 +10,8 @@ import net.vipely.vipelymod.VipelyMod;
 public class ModItems {
 
 	public static final Item DRASIUM_INGOT = registerItem("drasium_ingot", 
+			new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(69)));
+	public static final Item RAW_DRASIUM = registerItem("raw_drasium", 
 			new Item(new FabricItemSettings().group(ItemGroup.MISC).maxCount(64)));
 	
 	private static Item registerItem(String name, Item item) {
