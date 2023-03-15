@@ -1,4 +1,8 @@
 {
+	"itemGroup.vipelymod.drasium": "VipelyMod"
+	
 	"item.vipelymod.drasium_ingot": "Drasium Ingot",
-	"item.vipelymod.raw_drasium": "Raw Drasium"
+	"item.vipelymod.raw_drasium": "Raw Drasium",
+	"item.vipelymod.drasium_coal": "Drasium Coal",
+	"block.vipelymod.drasium_block": "Block of Drasium"
 }

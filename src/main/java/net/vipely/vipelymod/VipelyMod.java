@@ -1,7 +1,9 @@
 package net.vipely.vipelymod;
 
 import net.fabricmc.api.ModInitializer;
-import net.vipely.vipelymod.Item.ModItems;
+import net.vipely.vipelymod.block.ModBlocks;
+import net.vipely.vipelymod.item.ModItems;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,5 +16,6 @@ public class VipelyMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
