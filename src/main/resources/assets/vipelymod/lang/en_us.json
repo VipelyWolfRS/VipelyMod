@@ -4,5 +4,16 @@
 	"item.vipelymod.drasium_ingot": "Drasium Ingot",
 	"item.vipelymod.raw_drasium": "Raw Drasium",
 	"item.vipelymod.drasium_coal": "Drasium Coal",
-	"block.vipelymod.drasium_block": "Block of Drasium"
+	
+	"block.vipelymod.drasium_block": "Block of Drasium",
+	"block.vipelymod.drasium_coal_block": "Block of Drasium Coal",
+	
+	"block.vipelymod.drasium_ore": "Drasium Ore",
+	"block.vipelymod.deepslate_drasium_ore": "Deepslate Drasium Ore",
+	"block.vipelymod.nether_drasium_ore": "Nether Drasium Ore",
+	"block.vipelymod.end_drasium_ore": "End Drasium Ore",
+	"block.vipelymod.drasium_coal_ore": "Drasium Coal Ore",
+	"block.vipelymod.deepslate_drasium_coal_ore": "Deepslate Drasium Coal Ore",
+	"block.vipelymod.nether_drasium_coal_ore": "Nether Drasium Coal Ore",
+	"block.vipelymod.end_drasium_coal_ore": "End Drasium Coal Ore"
 }

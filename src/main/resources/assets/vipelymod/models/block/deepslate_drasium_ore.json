@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "vipelymod:block/deepslate_drasium_ore"
+	}
+}
