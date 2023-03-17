@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"vipelymod:drasium_ore",
+		"vipelymod:drasium_coal_ore",
+		"vipelymod:nether_drasium_ore",
+		"vipelymod:nether_drasium_coal_ore",
+		"vipelymod:end_drasium_ore",
+		"vipelymod:end_drasium_coal_ore",
+		"vipelymod:deepslate_drasium_ore",
+		"vipelymod:deepslate_drasium_coal_ore"
+	]
+}

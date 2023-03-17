@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "vipelymod:raw_drasium"
+  },
+  "result": "vipelymod:drasium_ingot"
+}

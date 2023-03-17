@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "vipelymod:drasium_coal_block" 
+		}
+	],
+	"result": {
+		"item": "vipelymod:drasium_coal",
+		"count": 9
+	}
+}

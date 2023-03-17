@@ -3,6 +3,8 @@ package net.vipely.vipelymod;
 import net.fabricmc.api.ModInitializer;
 import net.vipely.vipelymod.block.ModBlocks;
 import net.vipely.vipelymod.item.ModItems;
+import net.vipely.vipelymod.world.feature.ModConfiguredFeatures;
+import net.vipely.vipelymod.world.gen.ModOreGeneration;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +17,9 @@ public class VipelyMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
+		ModConfiguredFeatures.registerConfiguredFeatures();
 		ModBlocks.registerModBlocks();
+		ModItems.registerModItems();
+		ModOreGeneration.generateOres();
 	}
 }

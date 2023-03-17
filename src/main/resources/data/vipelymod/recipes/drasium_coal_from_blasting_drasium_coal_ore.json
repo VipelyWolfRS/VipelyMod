@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "vipelymod:drasium_coal_ore"
+  },
+  "result": "vipelymod:drasium_coal"
+}
