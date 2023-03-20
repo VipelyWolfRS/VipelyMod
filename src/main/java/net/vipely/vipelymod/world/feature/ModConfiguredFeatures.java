@@ -17,27 +17,36 @@ public class ModConfiguredFeatures {
 
 	public static final List<OreFeatureConfig.Target> OVERWORLD_DRASIUM_ORES = List.of(
 			OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.DRASIUM_ORE.getDefaultState()),
-			OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_DRASIUM_ORE.getDefaultState()),
+			OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_DRASIUM_ORE.getDefaultState()));
+	public static final List<OreFeatureConfig.Target> OVERWORLD_DRASIUM_COAL_ORES = List.of(
 			OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.DRASIUM_COAL_ORE.getDefaultState()),
 			OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_DRASIUM_COAL_ORE.getDefaultState()));
 	
 	public static final List<OreFeatureConfig.Target> NETHER_DRASIUM_ORES = List.of(
-			OreFeatureConfig.createTarget(OreConfiguredFeatures.BASE_STONE_NETHER, ModBlocks.NETHER_DRASIUM_ORE.getDefaultState()),
+			OreFeatureConfig.createTarget(OreConfiguredFeatures.BASE_STONE_NETHER, ModBlocks.NETHER_DRASIUM_ORE.getDefaultState()));
+	public static final List<OreFeatureConfig.Target> NETHER_DRASIUM_COAL_ORES = List.of(
 			OreFeatureConfig.createTarget(OreConfiguredFeatures.BASE_STONE_NETHER, ModBlocks.NETHER_DRASIUM_COAL_ORE.getDefaultState()));
 	
 	public static final List<OreFeatureConfig.Target> END_DRASIUM_ORES = List.of(
-			OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.END_DRASIUM_ORE.getDefaultState()),
+			OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.END_DRASIUM_ORE.getDefaultState()));
+	public static final List<OreFeatureConfig.Target> END_DRASIUM_COAL_ORES = List.of(
 			OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.END_DRASIUM_COAL_ORE.getDefaultState()));
 	
 	
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DRASIUM_ORE =
-			ConfiguredFeatures.register("drasium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_ORES, (int) 4.5));
+			ConfiguredFeatures.register("drasium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_ORES, 9));
+	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DRASIUM_COAL_ORE =
+			ConfiguredFeatures.register("drasium_coal_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_COAL_ORES, 9));
 	
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_DRASIUM_ORE =
-			ConfiguredFeatures.register("nether_drasium_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_ORES, (int) 6));
+			ConfiguredFeatures.register("nether_drasium_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_ORES, 12));
+	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_DRASIUM_COAL_ORE =
+			ConfiguredFeatures.register("nether_drasium_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_COAL_ORES, 12));
 	
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_DRASIUM_ORE =
-			ConfiguredFeatures.register("end_drasium_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_ORES, (int) 6));
+			ConfiguredFeatures.register("end_drasium_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_ORES, 12));
+	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_DRASIUM_COAL_ORE =
+			ConfiguredFeatures.register("end_drasium_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_COAL_ORES, 12));
 	
 	
 	public static void registerConfiguredFeatures() {

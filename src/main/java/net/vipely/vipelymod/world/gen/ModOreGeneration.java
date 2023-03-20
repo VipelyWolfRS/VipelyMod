@@ -9,11 +9,17 @@ public class ModOreGeneration {
 	public static void generateOres() {
 		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
 				GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.DRASIUM_ORE_PLACED.getKey().get());
+		BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+				GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.DRASIUM_COAL_ORE_PLACED.getKey().get());
 		
 		BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
 				GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.NETHER_DRASIUM_ORE_PLACED.getKey().get());
+		BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
+				GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.NETHER_DRASIUM_COAL_ORE_PLACED.getKey().get());
 		
 		BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
 				GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.END_DRASIUM_ORE_PLACED.getKey().get());
+		BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
+				GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.END_DRASIUM_COAL_ORE_PLACED.getKey().get());
 	}
 }
