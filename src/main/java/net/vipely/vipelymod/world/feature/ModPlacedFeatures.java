@@ -15,19 +15,19 @@ import net.minecraft.world.gen.placementmodifier.SquarePlacementModifier;
 
 public class ModPlacedFeatures {
 	public static final RegistryEntry<PlacedFeature> DRASIUM_ORE_PLACED = PlacedFeatures.register("drasium_ore_placed",
-			ModConfiguredFeatures.DRASIUM_ORE, modifiersWithCount(9, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+			ModConfiguredFeatures.DRASIUM_ORE, modifiersWithCount(6, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 	public static final RegistryEntry<PlacedFeature> DRASIUM_COAL_ORE_PLACED = PlacedFeatures.register("drasium_coal_ore_placed",
-			ModConfiguredFeatures.DRASIUM_COAL_ORE, modifiersWithCount(9, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-20), YOffset.aboveBottom(80))));
+			ModConfiguredFeatures.DRASIUM_COAL_ORE, modifiersWithCount(6, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-20), YOffset.aboveBottom(80))));
 	
 	public static final RegistryEntry<PlacedFeature> NETHER_DRASIUM_ORE_PLACED = PlacedFeatures.register("nether_drasium_ore_placed",
-			ModConfiguredFeatures.NETHER_DRASIUM_ORE, modifiersWithCount(10, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+			ModConfiguredFeatures.NETHER_DRASIUM_ORE, modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
 	public static final RegistryEntry<PlacedFeature> NETHER_DRASIUM_COAL_ORE_PLACED = PlacedFeatures.register("nether_drasium_coal_ore_placed",
-			ModConfiguredFeatures.NETHER_DRASIUM_COAL_ORE, modifiersWithCount(10, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-20), YOffset.aboveBottom(80))));
+			ModConfiguredFeatures.NETHER_DRASIUM_COAL_ORE, modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-20), YOffset.aboveBottom(80))));
 	
 	public static final RegistryEntry<PlacedFeature> END_DRASIUM_ORE_PLACED = PlacedFeatures.register("end_drasium_ore_placed",
-			ModConfiguredFeatures.END_DRASIUM_ORE, modifiersWithCount(10, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
-	public static final RegistryEntry<PlacedFeature> END_DRASIUM_COAL_ORE_PLACED = PlacedFeatures.register("end_drasium_ore_placed",
-			ModConfiguredFeatures.END_DRASIUM_COAL_ORE, modifiersWithCount(10, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-20), YOffset.aboveBottom(80))));
+			ModConfiguredFeatures.END_DRASIUM_ORE, modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-80), YOffset.aboveBottom(80))));
+	public static final RegistryEntry<PlacedFeature> END_DRASIUM_COAL_ORE_PLACED = PlacedFeatures.register("end_drasium_coal_ore_placed",
+			ModConfiguredFeatures.END_DRASIUM_COAL_ORE, modifiersWithCount(8, HeightRangePlacementModifier.uniform(YOffset.aboveBottom(-20), YOffset.aboveBottom(80))));
 	
 	
 	private static List<PlacementModifier> modifiers(PlacementModifier countModifier, PlacementModifier heightModifier) {

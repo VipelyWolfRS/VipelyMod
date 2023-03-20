@@ -1,7 +1,5 @@
 package net.vipely.vipelymod.block;
 
-import net.vipely.vipelymod.VipelyMod;
-import net.vipely.vipelymod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -13,6 +11,8 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
+import net.vipely.vipelymod.VipelyMod;
+import net.vipely.vipelymod.item.ModItemGroup;
 
 public class ModBlocks {
 	public static final Block DRASIUM_BLOCK = registerBlock("drasium_block",

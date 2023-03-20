@@ -5,6 +5,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.vipely.vipelymod.VipelyMod;
+import net.vipely.vipelymod.item.ModItems;
 
 public class ModItemGroup {
 	public static final ItemGroup DRASIUM = FabricItemGroupBuilder.build(

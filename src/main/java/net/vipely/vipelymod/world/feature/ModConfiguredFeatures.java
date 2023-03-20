@@ -34,19 +34,19 @@ public class ModConfiguredFeatures {
 	
 	
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DRASIUM_ORE =
-			ConfiguredFeatures.register("drasium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_ORES, 9));
+			ConfiguredFeatures.register("drasium_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_ORES, 6));
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> DRASIUM_COAL_ORE =
-			ConfiguredFeatures.register("drasium_coal_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_COAL_ORES, 9));
+			ConfiguredFeatures.register("drasium_coal_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_DRASIUM_COAL_ORES, 6));
 	
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_DRASIUM_ORE =
-			ConfiguredFeatures.register("nether_drasium_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_ORES, 12));
+			ConfiguredFeatures.register("nether_drasium_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_ORES, 8));
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_DRASIUM_COAL_ORE =
-			ConfiguredFeatures.register("nether_drasium_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_COAL_ORES, 12));
+			ConfiguredFeatures.register("nether_drasium_coal_ore", Feature.ORE, new OreFeatureConfig(NETHER_DRASIUM_COAL_ORES, 8));
 	
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_DRASIUM_ORE =
-			ConfiguredFeatures.register("end_drasium_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_ORES, 12));
+			ConfiguredFeatures.register("end_drasium_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_ORES, 8));
 	public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_DRASIUM_COAL_ORE =
-			ConfiguredFeatures.register("end_drasium_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_COAL_ORES, 12));
+			ConfiguredFeatures.register("end_drasium_coal_ore", Feature.ORE, new OreFeatureConfig(END_DRASIUM_COAL_ORES, 8));
 	
 	
 	public static void registerConfiguredFeatures() {

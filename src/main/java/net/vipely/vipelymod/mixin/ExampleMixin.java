@@ -1,12 +1,12 @@
 package net.vipely.vipelymod.mixin;
 
-import net.minecraft.client.gui.screen.TitleScreen;
-import net.vipely.vipelymod.VipelyMod;
-
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+
+import net.minecraft.client.gui.screen.TitleScreen;
+import net.vipely.vipelymod.VipelyMod;
 
 @Mixin(TitleScreen.class)
 public class ExampleMixin {
