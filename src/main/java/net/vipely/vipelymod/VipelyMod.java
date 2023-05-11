@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import net.vipely.vipelymod.item.ModItems;
+import net.vipely.vipelymod.painting.ModPaintings;
 import net.fabricmc.api.ModInitializer;
 import net.vipely.vipelymod.block.ModBlocks;
 import net.vipely.vipelymod.world.feature.ModConfiguredFeatures;
@@ -21,5 +22,7 @@ public class VipelyMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 		ModOreGeneration.generateOres();
+		
+		ModPaintings.registerPaintings();
 	}
 }
